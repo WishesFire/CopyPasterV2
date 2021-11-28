@@ -1,0 +1,104 @@
+.style-body {
+    background-color: #d6b813;
+}
+
+.paster-button-object {
+    border-radius: 10px;
+    background-color: #f5edc4;
+    position: relative;
+    left: 100px;
+    width: 720px;
+    height: 60px;
+    margin-bottom: 10px;
+    border-color: #d6b813;
+}
+
+.paster-text {
+    font-size: 15px;
+}
+
+.date {
+    float: right;
+    margin-right: 4px;
+    margin-top: 37px;
+    font-size: 13px;
+}
+
+.panel {
+    background-color: black;
+    width: 60px;
+    height: 500px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    margin-right: 40px;
+}
+
+.fixed {
+	position: fixed;
+	z-index: 9999;
+	top: 0;
+}
+
+.telegram-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+
+    position: relative;
+    bottom: -45px;
+}
+
+.archive-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+
+    position: relative;
+    bottom: -60px;
+}
+
+.reload-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+
+    position: relative;
+    bottom: -80px;
+}
+
+.question-button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+
+    position: relative;
+    bottom: -240px;
+    right: 13px;
+}
+
+.telegram {
+    width: 45px;
+    height: 45px;
+}
+
+.archive {
+    width: 45px;
+    height: 45px;
+}
+
+.reload {
+    width: 45px;
+    height: 45px;
+}
+
+.question {
+    width: 75px;
+    height: 45px;
+}
+
