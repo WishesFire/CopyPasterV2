@@ -1,6 +1,7 @@
 import pyperclip
 import eel
 import os
+import webbrowser
 from datetime import datetime
 from config import BASE_DIR_FILE
 
@@ -13,7 +14,7 @@ def set_data(value):
 
 @eel.expose
 def telegram_connection():
-    pass
+    webbrowser.open("https://t.me/cv_project_bot")
 
 
 @eel.expose
@@ -48,7 +49,7 @@ class Core:
 
     @classmethod
     def _save_data(cls, value, curr_time):
-        if value or value != "" or value != "\n":
+        if value or value != "" or value != "\n" or value != " ":
             with open(BASE_DIR_FILE, "a") as file:
                 file.write(value.replace("\n", "") + "---" + curr_time)
                 file.write("\n")
